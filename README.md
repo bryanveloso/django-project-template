@@ -21,9 +21,9 @@ keep these extra nodes and gems neat, so install those first:
 
 Here are the prerequisites:
 
-* [Compass](http://compass-style.org/) -- `gem install compass`
-* [Compass Normalize](https://github.com/ksmandersen/compass-normalize) -- `gem install compass-normalize`
-* [Coffeescript](coffeescript.org) -- `npm install coffee-script`
+* [Compass](http://compass-style.org/) — `gem install compass`
+* [Compass Normalize](https://github.com/ksmandersen/compass-normalize) — `gem install compass-normalize`
+* [Coffeescript](coffeescript.org) — `npm install coffee-script`
 
 Usage
 -----
