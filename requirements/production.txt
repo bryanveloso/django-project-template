@@ -1,0 +1,7 @@
+# Package Requirements for Production
+
+dj-database-url == 0.2.1
+Django == 1.5.1
+django-braces == 1.0.0
+django-configurations == 0.3
+psycopg2 == 2.5
