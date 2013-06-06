@@ -1,0 +1,17 @@
+// Import our required basic modules: Compass, Susy and Normalize.
+@import "normalize";
+@import "compass";
+
+// Variables should come early.
+@import "components/variables";
+
+// Establish a baseline rhythym using Compass' establish-baseline(); mixin.
+// This takes the value of $base-font-size into account in order to establish
+// a proper line-height, etc.
+@include establish-baseline();
+
+// Force the box model to use the immensely saner border-box calculation.
+* {
+    @include box-sizing(border-box);
+    text-rendering: optimizeLegibility;
+}

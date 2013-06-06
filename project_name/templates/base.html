@@ -1,0 +1,21 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html class="no-js" lang="{{ LANGUAGE_CODE|slice:"2" }}">
+<head>
+<title>{% block override %}{% block title %}{% endblock %}Hello! Ranking ID{% endblock %}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="{% static "stylesheets/application.css" %}">
+</head>
+<body id="" class="path-{{ request.path|slugify }}" data-path="{{ request.path }}">
+{% block body %}
+<div class="wrapper">
+{% block wrapper %}
+<div class="page">
+{% block page %}{% endblock page %}
+</div>
+{% endblock wrapper %}
+</div>
+{% endblock body %}
+</body>
+</html>

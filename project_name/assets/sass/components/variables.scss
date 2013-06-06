@@ -1,0 +1,6 @@
+// Let's start out with some variables. Here, we determine what kind of CSS
+// we want Compass to write, because we don't want EVERYTHING.
+$legacy-support-for-ie: false; // Turns off hack support for IE6 & 7.
+$support-for-original-webkit-gradients: false; // Because Mac users upgrade.
+$experimental-support-for-opera: false; // Fuck Opera.
+$experimental-support-for-khtml: false; // What?
